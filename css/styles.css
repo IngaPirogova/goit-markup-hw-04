@@ -145,14 +145,6 @@ h1,h2,h3,h4,h5,h6, p {
    margin-left: 50px;
 }
 
-.link-icon {
-    width: 16px;
-    height: 12px;
-    padding: 0;
-    border: none;
-    color: var(--secondary-text-color);
-}
-
 /*Герой*/
 .hero {
   background-color: var(--accent-bg-color);
@@ -164,7 +156,7 @@ h1,h2,h3,h4,h5,h6, p {
 .hero-title {
     margin-bottom: 30px;  
     max-width: 696px;
-    
+       
     color: var(--accent-text-color);
      
     font-weight: 900;
@@ -181,6 +173,7 @@ h1,h2,h3,h4,h5,h6, p {
     margin-right: auto;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)), url(../images/imgoverlay.jpg);
+     background-repeat: no-repeat;
 }
   
 /*Кнопки по умолчанию и на странице Портфолио*/
@@ -423,4 +416,13 @@ h1,h2,h3,h4,h5,h6, p {
 .filter .button {
     margin-right: 8px;
 }
+
+/*Спрайт*/
+.link-icon {
+   fill: currentColor;
+}
+    
+    
+    
+      
 
