@@ -171,9 +171,17 @@ h1,h2,h3,h4,h5,h6, p {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-transform: uppercase; 
-
-    }       
+    text-transform: uppercase;
+} 
+/*Фон Герой*/
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)), url(../images/imgoverlay.jpg);
+}
   
 /*Кнопки по умолчанию и на странице Портфолио*/
 .button {
