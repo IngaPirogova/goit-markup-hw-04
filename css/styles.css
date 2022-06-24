@@ -363,12 +363,13 @@ h1,h2,h3,h4,h5,h6, p {
 .team-soclinks-item:not(:last-child) {
     margin-right: 10px;
 }
-.team-soclinks-item {
+/*.team-soclinks-item {
     padding-bottom: 30px;
-}
+}*/
 .team-soclinks {
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 .icon-social {
     fill: var(--social-links-color);
@@ -433,7 +434,8 @@ h1,h2,h3,h4,h5,h6, p {
 
 .footer-adress {
     color: var(--accent-text-color);    
-    line-height: 1.71;           
+    line-height: 1.71; 
+    margin-right: 70px;          
 }
 
 .footer-contacts .link {
@@ -468,6 +470,37 @@ h1,h2,h3,h4,h5,h6, p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19; 
+}
+/*Футер ссылки соцсетей*/
+.join {
+    font-weight: 700;        
+    line-height: 1.14;        
+    text-transform: uppercase;    
+    color: var(--accent-text-color);
+    margin-bottom: 20px;   
+    
+}
+.general-div-footer {
+    display: flex;
+}
+
+.footer-soclinks {
+    display: flex;
+}  
+
+.footer-soclinks .icon-social {
+    fill: var(--accent-text-color);
+}
+
+.footer-soclinks-item{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+}
+.footer-join {
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 70px;
+   
 }
 
 /*Стили для Портфолио*/
