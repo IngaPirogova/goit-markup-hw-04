@@ -450,6 +450,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 .general-div-footer {
     display: flex;
+    align-items: baseline;
 }
 .footer-soclinks {
     display: flex;
@@ -476,7 +477,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 .footer-join {
     align-items: center;
-    margin-left: 70px;
+    margin-left: 70px;   
 }
 .footer-soclinks .fs-item + .fs-item {
     margin-left: 10px;
