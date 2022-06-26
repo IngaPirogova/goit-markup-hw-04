@@ -406,8 +406,7 @@ h1,h2,h3,h4,h5,h6, p {
 
 .footer-adress {
     color: var(--accent-text-color);    
-    line-height: 1.71; 
-    margin-right: 70px;          
+    line-height: 1.71;            
 }
 
 .footer-contacts .link {
@@ -464,7 +463,7 @@ h1,h2,h3,h4,h5,h6, p {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     color: var(--accent-text-color);
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -475,11 +474,14 @@ h1,h2,h3,h4,h5,h6, p {
 .link-social:focus {
     background-color: var(--accent-color);
 }
-   
 .footer-join {
     align-items: center;
     margin-left: 70px;
 }
+.footer-soclinks .fs-item + .fs-item {
+    margin-left: 10px;
+}
+  
 /*Стили для Портфолио*/
 
 .portfolio-card .item {
