@@ -400,9 +400,6 @@ h1,h2,h3,h4,h5,h6, p {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer .container {
-    align-items: baseline;
-}
 
 .footer-adress {
     color: var(--accent-text-color);    
